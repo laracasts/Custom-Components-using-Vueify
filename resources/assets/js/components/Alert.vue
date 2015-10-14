@@ -22,13 +22,14 @@
             Alert--Success: type == 'success',
             Alert--Error: type == 'error',
          "
-         v-show="show">
+         v-show="show"
+    >
         <p>
             <content></content>
         </p>
     </div>
-
 </template>
+
 
 <script lang="es6">
     export default {
